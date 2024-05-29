@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.selected-product{
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
